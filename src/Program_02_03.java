@@ -1,5 +1,5 @@
-import UsefulClasses.LinkedList;
-import UsefulClasses.Node;
+import linked.list.objects.LinkedList;
+import linked.list.objects.Node;
 
 
 public class Program_02_03 {

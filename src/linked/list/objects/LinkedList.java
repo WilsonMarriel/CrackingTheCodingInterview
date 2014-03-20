@@ -1,4 +1,4 @@
-package UsefulClasses;
+package linked.list.objects;
 
 public class LinkedList<T> {
 	public Node<T> header;
