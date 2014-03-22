@@ -1,4 +1,4 @@
-package linked.list.objects;
+package stack.objects;
 
 public class Node<T> {
 	
