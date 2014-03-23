@@ -1,4 +1,4 @@
-package stack.objects;
+package list.queue.objects;
 
 public class Node<T> {
 	

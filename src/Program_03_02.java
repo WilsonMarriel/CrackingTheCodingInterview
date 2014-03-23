@@ -1,4 +1,4 @@
-import stack.objects.Node;
+import list.stack.objects.Node;
 
 public class Program_03_02 {
 	private static Node<Integer> top;

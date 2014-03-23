@@ -1,6 +1,6 @@
-package stack.objects;
+package list.stack.objects;
 
-import linked.list.objects.Node;
+import list.singlylinked.objects.Node;
 
 public class Stack<T> {
 	private Node<T> top;

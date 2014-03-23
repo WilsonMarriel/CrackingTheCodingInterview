@@ -1,11 +1,12 @@
-import linked.list.objects.*;
+import list.singlylinked.objects.*;
 public class Program_02_05_partial {
 
 	public static LinkedList<Integer> sumBackwards(LinkedList<Integer> a, LinkedList<Integer> b){
 		LinkedList<Integer> c = new LinkedList<Integer>();
-		Node<Integer> nc = c.header;
-		Node<Integer> na = a.header;
-		Node<Integer> nb = b.header;
+		Node<Integer> nc = new Node<Integer>(0);
+		c.head = nc;
+		Node<Integer> na = a.head;
+		Node<Integer> nb = b.head;
 		
 		int va, vb, carry = 0;
 		
@@ -19,7 +20,7 @@ public class Program_02_05_partial {
 			if(na != null) na = na.next;
 			if(nb != null) nb = nb.next;
 			if(!(na == null && nb == null && carry == 0)){
-				nc.next = new Node<Integer>();
+				nc.next = new Node<Integer>(0);
 				nc = nc.next;
 			}
 			else break;

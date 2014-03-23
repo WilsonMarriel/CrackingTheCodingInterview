@@ -1,4 +1,4 @@
-package heap.tree.objects;
+package tree.heap.objects;
 
 import java.util.ArrayList;
 

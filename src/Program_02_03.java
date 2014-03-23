@@ -1,5 +1,5 @@
-import linked.list.objects.LinkedList;
-import linked.list.objects.Node;
+import list.singlylinked.objects.LinkedList;
+import list.singlylinked.objects.Node;
 
 
 public class Program_02_03 {
@@ -16,9 +16,9 @@ public class Program_02_03 {
 
 	public static void main(String[] args) {
 		ll.print();
-		Node<Integer> last = ll.header;
+		Node<Integer> last = ll.head;
 		while(last.next != null) last = last.next;
-		removeNode(ll.header.next.next.next);//last);
+		removeNode(ll.head.next.next.next);//last);
 		ll.print();
 	}
 

@@ -1,5 +1,5 @@
-import binary.tree.objects.BinaryTree;
-import binary.tree.objects.Node;
+import tree.binary.objects.BinaryTree;
+import tree.binary.objects.Node;
 
 public class Program_04_01 {
 		public static BinaryTree<Integer> bt = new BinaryTree<Integer>();

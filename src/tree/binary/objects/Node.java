@@ -1,4 +1,4 @@
-package binary.tree.objects;
+package tree.binary.objects;
 
 public class Node<T> {
 	
