@@ -41,7 +41,7 @@ public class Program_17_07 {
 		ArrayList<Integer> t_nums = new ArrayList<Integer>();
 		String str_num = "";
 		if(num < 0){
-			str_num += "Minus ";
+			str_num += "Negative ";
 			num = -num;
 		}
 		
