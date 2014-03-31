@@ -1,4 +1,3 @@
-
 public class Program_05_05 {
 	
 	public static int countDiffBits(int a, int b){
